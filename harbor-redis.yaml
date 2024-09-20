@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Statefulsets
+metadata:
+  creationTimestamp: null
+  labels:
+    app: harbor-redis
+  name: harbor-redis
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: harbor-redis
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: harbor-redis
+    spec:
+      containers:
+      - image: goharbor/redis-photon:v2.8.2
+        name: redis-photon
+        resources: {}
+status: {}

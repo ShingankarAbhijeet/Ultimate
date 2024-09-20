@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lucid-volt-428606-v2",
+  "private_key_id": "6774ef3f35859fa8939ad4dcc5b3e6c90fcad7d2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCheL11Lwqvs3JV\nwWG0xgPBMKSKMSdqlaxVRrylGTrkO5oA3Kqe3mXgBJpIoHbxae3Ezmr/QJ4XrqDz\nkYmHFlUNaHZ7JfRD3sL+SVO88twoFO2SFRmoJEUfcXXs+AghGdedyCCvKWnj92EC\nuSkQX+SLuQBOKI54+EubbANQXzpHj3FLN3TIWkpNz2ykb8Jo5JkEhbik0U4UDXlZ\nngpwUEFuUASAkLBD8Z592neW/XLzNlb+nL/pn5NbrfOGqTMgTuc3dh2VAZEKjlJK\n1Uu8twKmKAJBQ+YV+WhM6iY/qCMDNsHgxOLoo7fHnmx6/fROc7k/B5LhcogZJ/Y1\nradr66ENAgMBAAECggEAEy91kgEDC9746fUzsZceJsFWU4XFRqs+UirjoC7lae0m\nU7g5skL/fMS0kNuMC7bH2wH3AZlruf70PcHK7ZjlhdXQeg+yPFwxSVBsxCm2Udwx\nYWbjaQXXjAW0UBx6WXXTbM+0s8s/uyfknWkNrCs7TFoGDhil26a407XblkbySu0w\n96yBCGsYA/6JV5Som/t6oVN3HnSAXo7gwxv3h7I0SEXXW1ngHHKseNAoY/U6//6C\nmg+GBRkk0UydMnh8Oqne0kSziiEST+hYEOWjFWO+hEVAG8YaTtAvFQabNSHFu1EQ\nWLnzNn7bWyUQOpKucwF+h5fm0dBAB2nntVCKwvOSqwKBgQDYhZ6dV7jduDb1TNre\nve1r/xEfu+B9rCPoB7/lpEscGWh2YPY/ITRN+VvxcJhI3p4VFEy5ex9ziTlPdBap\n8PC32gTVUCwH11QyL/V29LJBaUSN4+dj8YCWp4o9j9C4DhMEIVK4RJ21U7bgJ3I7\nF7C1Znx5eYUzaf9lVZuduU3I2wKBgQC+6Zd7OxUUIlBrFiLrHA/Db3o59KbLRnmN\n1doXBaN4z2FJCJ7s3tBUmDiXDi75osASmVGEsYSw/Ow3b7ytJYB4Px5+8RhkJ660\nYPnK+7/It3agw1BaPqWh4v6ZZ27HJ8lODZJPcnuGNtnVAVegECaYZKssMtBHcNVM\nRbLLKCSONwKBgBWdEP5H2W5YizPlXhvJ/b9AEOeIC5q/6j2pOGCmC9FcP+9BMpOO\nrvfxolnxkWIExub3xcjmH3ebBRuHTRPdt0nC+6SHgj2uIvt3ihs7xed9qJg5Xcm+\nO8XOJ6CJkJ4u2XsaEHXQc6W8G484oNCBRuR0vIwrsz40oIfvCb+u1bLtAoGAFhA8\n93ruhrMohBe81Vsa30VE5OnHVPrCFYg/eiWmrNGatqwOYeWmQgCNmbeD6knK1Ntv\nNlylryarzgRV09TfsgXpalZGsVx8rk/+zlyl33aEeTPZV3SiA8GOFwCDJvUMKL8c\nx529dNdl+V38WH1FWJtZxPPiaj86B2SOszficaUCgYEAy0KwM1+jWnzULXXxAgRc\nRdTy01othCHxt118kiV38GOwTDo903k33Ct9c1uzJFSiKtWk7kMQTGlRlKZn5UCM\nsiIwuAYYVhly9ZWm9CRSl1i5twQ2kFCLwiVv1YIThIRrZV/m/RhlvmhBVdtyfKwU\nmSK/rWFh+4dNbpNtefUxO+g=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sql-sa@lucid-volt-428606-v2.iam.gserviceaccount.com",
+  "client_id": "100822903651291186314",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sql-sa%40lucid-volt-428606-v2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

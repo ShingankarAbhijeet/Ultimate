@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lucid-volt-428606-v2",
+  "private_key_id": "5634f01857197dad2b146947c4dfd2ef6a63859a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQChD8lCJHFRLU8l\nK2RV0xUkLV5DGgHbN81m4cKILK1ea/pk1+Qij2w7/xbLRDlHF8EMP2IlpoeZpo7K\nS7UyEdRzsHGW/s7jxlzo1+YUjAQTeDiXVDJCl5adYvb4qM212bcWsgD62eEWa7OD\n3tWqCY9VKEqlxteLXd978CrvmCa7RmI0XGMi5Aoda3k2kG+5jW1nvdvV1wuCcq+y\nkYc5UaRc1zBlQaZcnrjt3LY24oL4I+moo82v5cUqbuGCwvhziN4Sik8LChYQmEm3\n/emg2QmKdlkc0qRuerBcMTfOcaPSHhvfbGuJP4qRESf559n/CQGzxvkFXHAIkihV\nJZPAtG+nAgMBAAECggEADeJP/aEpmY9X1sLuU82t8V/t08f+p/if/sHwZI/BZDXX\nsHDB7E7DzEo5m00myN+d1yHxooBACTlH7t1m4cmSsGRh7lvJ1u3HHZVa8qN9SHZh\nHn52FLJ/m9KnqpjWntoFQ/IVToqQsj+XioMflRhc4EDoanEBLLTraoIyGVRa5mLQ\nMEDQmBnCuXUF/cIzhsTTVmTIdaONJBk6rE7B78gYNs9cvF/oKSnRMcOSgU7xO3h1\naT5XV3LR0B/oYpJ1yYG2iKeiyET30a6CYPrho++XPEX7hC1PS2F3Iu/r7f1MY3Da\nLt9s5+AtPpqv9mT4LKo/VwQMqXaPvaXfs+hWi8vnOQKBgQDf7H2M7UWtpG2sGGR6\niMaRkll8+zmhVMVB12MwyDgW6adLzpCZS7dl7tSsRaKIjXxDXAuxSoqzqafn9rX7\nSP/Pzh1J4R9U6T2VJcLCGOF36e7CdGZUTV9V03akQQTyViQAVpb5eZYaTnJkI6bg\neMuI+zMDHXpyWaza2uE+mGkbmQKBgQC4IhQh9IgwJVqJxNOyQ3PoN4lDN1OKaZDB\ngPEbk9TVnc0bXLqWhafM//LAeLe9ljzw6/lOF4tznB00100dP/I0Vjn6IlaY4rwD\njbXnZdXZAJuJPOD5exaSgECko8bOImdJEIskG573MRwIJMkd4e+fUP7qZUF6/SW5\nD/WC8NrtPwKBgQCO8zybcQXgem4BRXkvuI17dUBnx0HdOm7LP6N1Cvyzs+o3POGW\n231zN2rRp4rBPgGsRuC4B+xQEei87wTyLIISuXR9K5iC7nt/8aFJo/ScRt1Dimeh\nPdu0wNCmv1NXGaLWDHFJRlOK67WfNBtehf75rdO9E16ODa2J8d2FxmqjUQKBgDGr\nD58xJONH0CpFa400YLmM8XuuGtzFKQTpUSBNOiX9EOyGkNY1a1QC3mpIpdeABSQ/\notoLw9QFkmNEiEqRizXO5IiyZoWK84hJ2311nL+SSGI2h8EEEMynx8ghXWkRIqc0\nzTOKN9EZ8CPKOG3VGhvxbzGu6oDQdDJ9OY5+ha9lAoGBANhJlQjxZBLf1Gw6Myty\nqwLLUoeAfOE98B0eaMDkYyG8rh/K1+csUhgE8LOSbdpkadUmIU0zc7ZwVL85LSsV\nvBYcYag4aYE9o8+hKCrBYQ31qEzu2+fckBmC5Vn+xXFkFOJ+2dmGzP+O1bN54u2o\nAm3TruGgEPiD9WqkHQVucDa+\n-----END PRIVATE KEY-----\n",
+  "client_email": "jenkins-gcp-deployer-338@lucid-volt-428606-v2.iam.gserviceaccount.com",
+  "client_id": "106548275384220248982",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jenkins-gcp-deployer-338%40lucid-volt-428606-v2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

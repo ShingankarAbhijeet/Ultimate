@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tomcat-deployment
+  labels:
+    app: tomcat
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tomcat
+  template:
+    metadata:
+      labels:
+        app: tomcat
+    spec:
+      containers:
+      -  name: tomcat
+         image: abhijeetshingankar/tomcat-with-metrix:v3
+         env:
+         - name: CATALINA_OPTS
+           values: >-
+             -javaagent:/opt/jmx_prometheus_javaagent-1.0.1.jar=8081:/opt/jmx_config.yaml
+         - name: db_host
+           value: "127.0.0.1"
+         - name: DB_PORT
+           value: "5432"
+         - name: DB_NAME
+           value: "my-database"
+         - name: DB_USER
+           value: "postgres-admin"
+         - name: DB_PASSWORD
+           value: "Changeme@postgres" 
+         volumeMounts:
+         - name: tomcat-pv
+           mountPath: /usr/local/tomcat/webapps
+      - name: cloud-sql-proxy
+        image: gcr.io/cloudsql-docker/gce-proxy:1.33.1
+        command:
+          - "/cloud_sql_proxy"
+          - "--dir=/cloudsql"
+          - "--instances=lucid-volt-428606-v2:us-central1-c:my-database-instance=tcp:5432"
+          - "--credential_file=/d/Abhi/Projects/skill-boost-project/Ultimate/sql-sa.json"
+        volumeMounts:
+          - name: cloudsql-instance-credentials
+            mountPath: /secrets
+            readOnly: true
+      volumes:
+      - name: cloudsql-instance-credentials
+        secret:
+          secretName: sql-cred
+      
+      - name: tomcat-pv
+        PersistentVolumeClaim:
+          claimName: tomcat-pvc

@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: prometheus
+  name: prometheus
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: prometheus
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: prometheus
+    spec:
+      containers:
+      - image: abhijeetshingankar/prometheus:v3
+        name: prometheus
+        

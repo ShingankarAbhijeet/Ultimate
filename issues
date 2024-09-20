@@ -1,0 +1,20 @@
+1. credential issue => 
+
+   gcloud auth application-default login
+
+2. to update kubeconfig entry
+  => gcloud container clusters get-credentials my-gke-cluster --region us-central1
+
+3.kubectl edit startin notepad on computer.
+  => KUBE_EDITOR="vim" kubectl edit svc nginx
+
+4. can not delete cluster for deletion_protection is true
+    => update config file with deletion_protection=false
+
+5. Timeout while deleting subnet
+    => re run destroy
+6. Loggin to GKE nodes
+    =>   create firewall rule on gcp in the vpc.
+         gcloud compute ssh ....
+
+7.  

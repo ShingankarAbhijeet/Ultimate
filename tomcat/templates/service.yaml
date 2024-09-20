@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: tomcat
+    app.kubernetes.io/managed-by: Helm
+  name: tomcat-service
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: tomcat
+status:
+  loadBalancer: {}

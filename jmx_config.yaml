@@ -1,0 +1,16 @@
+startDelaySeconds: 0
+ssl: false
+lowercaseOutputName: true
+lowercaseOutputLabelNames: true
+whitelistObjectNames: ["java.lang:type=Memory", "java.lang:type=Threading"]
+rules:
+  - pattern: 'java.lang<type=Memory><attribute=HeapMemoryUsage>(.*)'
+    name: jvm_memory_usage_bytes
+    type: GAUGE
+    labels:
+      area: heap
+    help: Memory used by Tomcat
+  - pattern: 'java.lang<type=Threading><attribute=ThreadCount>(.*)'
+    name: jvm_thread_count
+    type: GAUGE
+    help: Number of threads in Tomcat
